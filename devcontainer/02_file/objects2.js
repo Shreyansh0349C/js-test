@@ -72,6 +72,8 @@ console.log(instructor);
 //     "price": "free"
 // }
 
+//API
+
 [
     {},
     {},
