@@ -32,3 +32,18 @@ const Books=[{ title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004
   })
 
   console.log(userBooks);
+
+
+//   MAP
+
+const MYnumbers=[1,2,3,4,5,6,7,8,9,10]
+
+const newNUM=MYnumbers.map((num)=>{return num+1})
+// console.log(newNUM)
+
+const Newnum=MYnumbers
+             .map((num)=>num*10)
+             .map((num)=>num+1)
+             .filter((num)=> num>=40)
+
+console.log(Newnum);             
